@@ -4,7 +4,6 @@
 
 const superagent = require('superagent'),
     express = require('express'),
-    router = express.Router(),
     cheerio= require('cheerio'),
     app = express(),
     path = require('path')
